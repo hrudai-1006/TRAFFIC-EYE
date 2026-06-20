@@ -1,0 +1,32 @@
+{
+  "officers": {
+    "ZONE_A": {
+      "officer_name": "Inspector Rajesh Kumar",
+      "officer_id": "TPS_001",
+      "badge_number": "BTP-4521",
+      "contact_placeholder": "+91-XXXXX-XXXXX",
+      "jurisdiction": "MG Road & Brigade Road Area"
+    },
+    "ZONE_B": {
+      "officer_name": "Inspector Priya Sharma",
+      "officer_id": "TPS_002",
+      "badge_number": "BTP-3892",
+      "contact_placeholder": "+91-XXXXX-XXXXX",
+      "jurisdiction": "Silk Board & BTM Layout Area"
+    },
+    "ZONE_C": {
+      "officer_name": "Sub-Inspector Amit Patel",
+      "officer_id": "TPS_003",
+      "badge_number": "BTP-7234",
+      "contact_placeholder": "+91-XXXXX-XXXXX",
+      "jurisdiction": "Koramangala Area"
+    }
+  },
+  "default_officer": {
+    "officer_name": "Control Room",
+    "officer_id": "TPS_CTRL",
+    "badge_number": "BTP-0000",
+    "contact_placeholder": "+91-80-2294-3400",
+    "jurisdiction": "Bengaluru City"
+  }
+}

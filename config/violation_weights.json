@@ -1,0 +1,24 @@
+{
+  "type_weights": {
+    "red_light": 1.0,
+    "wrong_side": 0.9,
+    "triple_riding": 0.7,
+    "helmet": 0.6,
+    "seatbelt": 0.6,
+    "anpr_flag": 0.5,
+    "illegal_parking": 0.4
+  },
+  "repeat_offender": {
+    "base_factor": 1.0,
+    "increment_per_prior": 0.1,
+    "max_factor": 2.0
+  },
+  "risk_categories": {
+    "high": 0.7,
+    "medium": 0.4,
+    "low": 0.0
+  },
+  "deduplication_cooldown_frames": 48,
+  "confidence_threshold": 0.85,
+  "description": "risk_score = type_weight * confidence * repeat_offender_factor. repeat_offender_factor = min(base_factor + increment_per_prior * prior_count, max_factor)"
+}

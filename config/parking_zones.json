@@ -1,0 +1,25 @@
+{
+  "no_parking_zones": [
+    {
+      "zone_id": "NP_001",
+      "camera_id": "CAM_001",
+      "polygon": [[50, 500], [300, 500], [300, 700], [50, 700]],
+      "dwell_threshold_seconds": 120,
+      "description": "No parking zone near MG Road bus stop"
+    },
+    {
+      "zone_id": "NP_002",
+      "camera_id": "CAM_002",
+      "polygon": [[800, 400], [1100, 400], [1100, 650], [800, 650]],
+      "dwell_threshold_seconds": 120,
+      "description": "No parking zone at Silk Board signal approach"
+    },
+    {
+      "zone_id": "NP_003",
+      "camera_id": "CAM_003",
+      "polygon": [[100, 600], [500, 600], [500, 900], [100, 900]],
+      "dwell_threshold_seconds": 120,
+      "description": "No parking zone on 80 Feet Road"
+    }
+  ]
+}

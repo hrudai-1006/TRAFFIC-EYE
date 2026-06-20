@@ -1,0 +1,25 @@
+{
+  "zones": {
+    "ZONE_A_LANE_1": {
+      "camera_id": "CAM_001",
+      "allowed_direction": [0, 1],
+      "angle_threshold_degrees": 100,
+      "lane_polygon": [[200, 300], [400, 300], [500, 700], [100, 700]],
+      "description": "Southbound traffic on MG Road"
+    },
+    "ZONE_A_LANE_2": {
+      "camera_id": "CAM_001",
+      "allowed_direction": [0, -1],
+      "angle_threshold_degrees": 100,
+      "lane_polygon": [[450, 300], [650, 300], [750, 700], [550, 700]],
+      "description": "Northbound traffic on MG Road"
+    },
+    "ZONE_B_LANE_1": {
+      "camera_id": "CAM_002",
+      "allowed_direction": [1, 0],
+      "angle_threshold_degrees": 100,
+      "lane_polygon": [[0, 350], [1280, 350], [1280, 500], [0, 500]],
+      "description": "Eastbound traffic at Silk Board"
+    }
+  }
+}

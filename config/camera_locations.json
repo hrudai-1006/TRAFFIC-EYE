@@ -1,0 +1,46 @@
+{
+  "cameras": {
+    "CAM_001": {
+      "location_name": "MG Road & Brigade Road Junction",
+      "zone_id": "ZONE_A",
+      "signal_roi": {
+        "x1": 100,
+        "y1": 50,
+        "x2": 160,
+        "y2": 150
+      },
+      "stop_line": {
+        "y": 400,
+        "x1": 100,
+        "x2": 600
+      },
+      "frame_width": 1280,
+      "frame_height": 720
+    },
+    "CAM_002": {
+      "location_name": "Silk Board Junction",
+      "zone_id": "ZONE_B",
+      "signal_roi": {
+        "x1": 150,
+        "y1": 30,
+        "x2": 210,
+        "y2": 130
+      },
+      "stop_line": {
+        "y": 420,
+        "x1": 80,
+        "x2": 640
+      },
+      "frame_width": 1280,
+      "frame_height": 720
+    },
+    "CAM_003": {
+      "location_name": "Koramangala 80 Feet Road",
+      "zone_id": "ZONE_C",
+      "signal_roi": null,
+      "stop_line": null,
+      "frame_width": 1920,
+      "frame_height": 1080
+    }
+  }
+}
